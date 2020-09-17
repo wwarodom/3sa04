@@ -6,18 +6,9 @@ import Weather from './components/Weather'
 export default function App() {
 
   return (
-    <View style={styles.container} >
+    <View>
        <Weather zipCode="83120" /> 
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    borderWidth: 5,
-    borderColor: 'red',    
-  }
-})
